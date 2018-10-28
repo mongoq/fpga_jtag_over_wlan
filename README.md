@@ -23,3 +23,4 @@ Second: JTAG to TB276 Board pinout
 
 https://github.com/synthetos/PiOCD/wiki/Using-a-Raspberry-Pi-as-a-JTAG-Dongle
 https://sourceforge.net/p/urjtag/discussion/682993/thread/d31f1840/
+https://www.mikrocontroller.net/articles/Raspberry_Pi_als_Universalprogrammer

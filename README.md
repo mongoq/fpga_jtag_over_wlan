@@ -1,10 +1,5 @@
 # fpga_jtag
 
-
-**_JTAG without USB-Blaster_**
-
----
-
 **ESP201 - JTAG over WLAN**
 
 Follow instructions on https://github.com/emard/wifi_jtag to prepare ESP201

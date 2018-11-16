@@ -28,6 +28,8 @@ Flash this: https://github.com/emard/wifi_jtag/blob/master/arduino/jtag_wifi_ser
 
 http://www.nxlab.fer.hr/fpgarduino/linux_bitstreams.html ?!?!?
 
+https://github.com/emard/LibXSVF-ESP
+
 ---
 
 TODO: WLAN JTAG Walkthrough

@@ -6,10 +6,17 @@ Follow instructions on https://github.com/emard/wifi_jtag to prepare ESP201
 
 First: Flashing of ESP201 Firmware
 
+---
+
 ![ESP201a](https://www.mikrocontroller.net/attachment/307865/Flashing-The-ESP8266-ESP201-Module-Board-With-TTL-UART.jpg)
+
+---
 
 ![ESP201b](https://www.mikrocontroller.net/attachment/307864/esp8266_esp_201_module_pinout_diagram_cheat_sheet_by_adlerweb-d9iwmqp.jpg
 )
+
+---
+
 
 Second: JTAG to TB276 Board pinout
 

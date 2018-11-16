@@ -29,6 +29,8 @@ https://www.mikrocontroller.net/articles/Raspberry_Pi_als_Universalprogrammer
 
 Generate .svf file: https://www.intel.com/content/www/us/en/programmable/support/support-resources/knowledge-base/solutions/rd07222008_677.html
 
+Flash this: https://github.com/emard/wifi_jtag/blob/master/arduino/jtag_wifi_serial.ino
+
 http://www.nxlab.fer.hr/fpgarduino/linux_bitstreams.html ?!?!?
 
 ---

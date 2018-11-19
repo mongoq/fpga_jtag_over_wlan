@@ -1,4 +1,4 @@
-# fpga_jtag
+# fpga jtag mit wlan
 
 **ESP201 - JTAG over WLAN**
 

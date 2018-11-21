@@ -44,3 +44,7 @@ https://github.com/emard/LibXSVF-ESP
 
 TODO: WLAN JTAG Walkthrough
 
+Use this with SSID "FPGAwlanJTAG"
+
+![Wlan-Repeater](https://asset.conrad.com/media10/isa/160267/c1/-/de/1273805_LB_00_FB/edimax-ew-7438rpn-mini-mit-edirange-app-wlan-repeater-300-mbits-24-ghz.jpg?x=520&y=520)
+

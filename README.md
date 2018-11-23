@@ -54,7 +54,7 @@ Get this to work with WLAN flashing - https://github.com/mfischer/Altera-Makefil
 
 ---
 
-OpenOCD:
+OpenOCD Installation:
 
 install libftdi for usb blaster
 
@@ -67,6 +67,8 @@ git clone http://repo.or.cz/r/openocd.git
 make
 
 make install
+
+---
 
 In der Datei *openocd.cfg*: (TODO: IP/jtag.lan)?
 

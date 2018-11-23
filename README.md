@@ -61,8 +61,11 @@ install libftdi for usb blaster
 git clone http://repo.or.cz/r/openocd.git
 
 ./bootstrap
+
 ./configure --enable-usb-blaster --enable-remote-bitbang
+
 make
+
 make install
 
 In der Datei *openocd.cfg*: (TODO: IP/jtag.lan)?

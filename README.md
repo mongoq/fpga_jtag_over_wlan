@@ -59,5 +59,6 @@ OpenOCD:
 install libftdi for usb blaster
 
 git clone http://repo.or.cz/r/openocd.git
+
 ./configure --enable-usb-blaster --enable-remote-bitbang
 

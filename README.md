@@ -56,7 +56,7 @@ Get this to work with WLAN flashing - https://github.com/mfischer/Altera-Makefil
 
 OpenOCD Installation:
 
-install libftdi for usb blaster
+install libftdi for usb blaster (apt-get install ...)
 
 git clone http://repo.or.cz/r/openocd.git
 

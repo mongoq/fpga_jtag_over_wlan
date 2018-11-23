@@ -100,4 +100,4 @@ TO convert sof to svf (TODO) - https://www.intel.co.jp/content/dam/altera-www/gl
 
 ---
 
-http://www.freddiechopin.info/en/download/category/4-openocd (Windows)
+http://www.freddiechopin.info/en/download/category/4-openocd (Windows OpenOCD)

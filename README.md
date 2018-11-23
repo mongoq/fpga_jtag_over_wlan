@@ -89,3 +89,7 @@ svf -tap tb276.tap project.svf
 shutdown
 
 ---
+
+Precompiled binary is available in bin/
+
+Default SSID is "jtag" and password "12345678" 

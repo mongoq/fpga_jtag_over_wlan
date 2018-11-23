@@ -51,3 +51,13 @@ Use this with SSID "FPGAwlanJTAG"
 ---
 
 Get this to work with WLAN flashing - https://github.com/mfischer/Altera-Makefile
+
+---
+
+OpenOCD:
+
+install libftdi for usb blaster
+
+git clone http://repo.or.cz/r/openocd.git
+./configure --enable-usb-blaster --enable-remote-bitbang
+

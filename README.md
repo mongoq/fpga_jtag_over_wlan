@@ -97,3 +97,7 @@ Default SSID is "jtag" and password "12345678"
 ---
 
 TO convert sof to svf (TODO) - https://www.intel.co.jp/content/dam/altera-www/global/ja_JP/pdfs/literature/manual/tclscriptrefmnl.pdf
+
+---
+
+http://www.freddiechopin.info/en/download/category/4-openocd (Windows)

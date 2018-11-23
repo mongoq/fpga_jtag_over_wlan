@@ -68,12 +68,19 @@ make install
 In der Datei *openocd.cfg*: (TODO: IP/jtag.lan)?
 
 interface remote_bitbang
+
 remote_bitbang_port 3335
+
 remote_bitbang_host jtag.lan
+
 jtag newtap tb276 tap -expected-id 0x020f10dd -irlen 10
+
 init
+
 scan_chain
+
 svf -tap tb276.tap project.svf
+
 shutdown
 
 ---

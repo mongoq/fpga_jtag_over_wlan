@@ -116,6 +116,8 @@ https://oliverlorenz.com/blog/esp8266-firmware-unter-ubuntu-aufspielen/
 
 ---
 
+Flash Vorgang
+
 sudo esptool.py -p /dev/ttyUSB3 write_flash 0x00000 jtag_wifi_serial.cpp.bin
 
 esptool.py v1.3

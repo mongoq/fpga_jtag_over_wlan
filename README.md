@@ -117,11 +117,31 @@ https://oliverlorenz.com/blog/esp8266-firmware-unter-ubuntu-aufspielen/
 ---
 
 sudo esptool.py -p /dev/ttyUSB3 write_flash 0x00000 jtag_wifi_serial.cpp.bin
+
 esptool.py v1.3
+
 Connecting....
+
 Auto-detected Flash size: 8m
+
 Running Cesanta flasher stub...
+
 Flash params set to 0x0020
+
 Wrote 303104 bytes at 0x0 in 26.3 seconds (92.3 kbit/s)...
+
 Leaving...
 
+---
+
+"Unverfänglicher Verbindungstest"
+
+sudo esptool.py -p /dev/ttyUSB3 chip_id
+
+esptool.py v1.3
+
+Connecting....
+
+Chip ID: 0x001c1495
+
+---

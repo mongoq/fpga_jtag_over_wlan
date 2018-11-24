@@ -107,3 +107,9 @@ http://www.freddiechopin.info/en/download/category/4-openocd (Windows OpenOCD)
 Precompiled Binaries at /bin ...
 
 esptool -vv -cd ck -cb 115200 -cp /dev/ttyUSB0 -ca 0x00000 -cf jtag_wifi_serial.cpp.bin
+
+---
+
+https://oliverlorenz.com/blog/esp8266-firmware-unter-ubuntu-aufspielen/
+
+--> sudo esptool.py --port /dev/ttyUSB3 write_flash 0x00000 jtag_wifi_serial.cpp.bin

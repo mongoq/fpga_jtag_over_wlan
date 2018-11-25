@@ -151,3 +151,6 @@ Connecting....
 Chip ID: 0x001c1495
 
 ---
+
+http://androegg.de/?p=242 --> Stromversorgung nicht über USB-TTL-Wandler
+ 

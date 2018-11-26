@@ -118,9 +118,28 @@ https://oliverlorenz.com/blog/esp8266-firmware-unter-ubuntu-aufspielen/
 
 Flash Vorgang
 
-zuerst: ... erase_flash ...
+zuerst: "Unverfänglicher Verbindungstest"
 
-dann:
+```
+sudo esptool.py -p /dev/ttyUSB3 chip_id
+
+esptool.py v1.3
+
+Connecting....
+
+Chip ID: 0x001c1495
+```
+
+Dann:
+
+````
+sudo esptool.py -p /dev/ttyUSB3 erase_flash 
+
+...
+````
+
+Und zum Flashen schließlich:
+
 ````
 sudo esptool.py -p /dev/ttyUSB3 write_flash 0x00000 jtag_wifi_serial.cpp.bin
 
@@ -138,18 +157,6 @@ Wrote 303104 bytes at 0x0 in 26.3 seconds (92.3 kbit/s)...
 
 Leaving...
 ````
----
-
-"Unverfänglicher Verbindungstest"
-
-sudo esptool.py -p /dev/ttyUSB3 chip_id
-
-esptool.py v1.3
-
-Connecting....
-
-Chip ID: 0x001c1495
-
 ---
 
 http://androegg.de/?p=242 --> Stromversorgung nicht über USB-TTL-Wandler

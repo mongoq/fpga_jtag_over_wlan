@@ -145,7 +145,6 @@ Erasing flash (this may take a while)...
 
 Erase took 2.8 seconds
 
-...
 ````
 
 Und zum Flashen schließlich:

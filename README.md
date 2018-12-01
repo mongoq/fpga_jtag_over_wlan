@@ -135,6 +135,16 @@ Dann:
 ````
 sudo esptool.py -p /dev/ttyUSB3 erase_flash 
 
+esptool.py v1.3
+
+Connecting....
+
+Running Cesanta flasher stub...
+
+Erasing flash (this may take a while)...
+
+Erase took 2.8 seconds
+
 ...
 ````
 

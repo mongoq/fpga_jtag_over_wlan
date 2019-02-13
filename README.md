@@ -22,6 +22,8 @@ Second: JTAG to TB276 Board pinout
 
 ![ESP201b](https://github.com/emard/wifi_jtag/raw/master/pic/altera10pin_xilinx14pin.jpg)
 
+Pinout Mapping ESP201 to JTAG Pins: https://github.com/emard/wifi_jtag (!!!) 
+
 ---
 
 **JTAG over Raspberry Pi**

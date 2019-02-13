@@ -4,8 +4,6 @@
 
 Follow instructions on https://github.com/emard/wifi_jtag to prepare ESP201
 
-First: Flashing of ESP201 Firmware
-
 ---
 
 ![ESP201a](https://www.mikrocontroller.net/attachment/307865/Flashing-The-ESP8266-ESP201-Module-Board-With-TTL-UART.jpg)

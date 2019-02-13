@@ -50,7 +50,7 @@ OpenOCD Installation:
 
 install libftdi for usb blaster (apt-get install ...)
 
-git clone http://repo.or.cz/r/openocd.git
+git clone http://repo.or.cz/r/openocd.git ?! https://github.com/ntfreak/openocd
 
 ./bootstrap
 

@@ -4,6 +4,8 @@
 
 Follow instructions on https://github.com/emard/wifi_jtag to prepare ESP201
 
+TODO: Create Altera SVF-File - https://www.intel.com/content/www/us/en/programmable/support/support-resources/knowledge-base/solutions/rd07222008_677.html
+
 ---
 
 ![ESP201a](https://www.mikrocontroller.net/attachment/307865/Flashing-The-ESP8266-ESP201-Module-Board-With-TTL-UART.jpg)

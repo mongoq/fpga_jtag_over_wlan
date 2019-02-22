@@ -166,3 +166,46 @@ GND-Verbindung zu IO-0 trennen (s.o.) ... sonst weiterhin im Flash Modus ... als
 
 http://androegg.de/?p=242 --> Stromversorgung nicht über USB-TTL-Wandler
  
+---
+
+Open On-Chip Debugger 0.10.0+dev-00581-g1b864d6e (2018-11-23-02:10)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+Warn : Adapter driver 'remote_bitbang' did not declare which transports it allows; assuming legacy JTAG-only
+Info : only one transport option; autoselect 'jtag'
+Info : Initializing remote_bitbang driver
+Info : Connecting to 192.168.4.1:3335
+Info : remote_bitbang driver initialized
+Info : This adapter doesn't support configurable speed
+Info : JTAG tap: tb276.tap tap/device found: 0x020f10dd (mfg: 0x06e (Altera), part: 0x20f1, ver: 0x0)
+Warn : gdb services need one or more targets defined
+   TapName             Enabled  IdCode     Expected   IrLen IrCap IrMask
+-- ------------------- -------- ---------- ---------- ----- ----- ------
+ 0 tb276.tap              Y     0x020f10dd 0x020f10dd    10 0x01  0x03
+svf processing file: "labortage_lauflicht_test_openocd.svf"
+FREQUENCY 2.50E+07 HZ;
+Error: Translation from khz to jtag_speed not implemented
+in procedure 'svf' called at file "openocd.cfg", line 7
+in procedure 'ocd_bouncer'
+TRST ABSENT;
+ENDDR IDLE;
+ENDIR IRPAUSE;
+STATE IDLE;
+SIR 10 TDI (002);
+RUNTEST IDLE 25000 TCK ENDSTATE IDLE;
+	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2A0CFAFAFAFAFAF8F8F8F8F8F8F8F9FAFAFBFBF8F8F8FBFBF8F8F9F8F9F1F1FAF8FAFBF3F7F7F7F7F7F76AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF);
+SIR 10 TDI (004);
+RUNTEST 125 TCK;
+	000000000400000000000000000000000000000000000000000000000000000000) MASK (0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000);
+SIR 10 TDI (003);
+RUNTEST 102400 TCK;
+RUNTEST 512 TCK;
+SIR 10 TDI (3FF);
+RUNTEST 25000 TCK;
+STATE IDLE;
+
+Time used: 0m27s106ms 
+svf file programmed successfully for 17 commands with 0 errors
+shutdown command invoked
+Info : remote_bitbang interface quit

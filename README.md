@@ -77,14 +77,16 @@ http://www.freddiechopin.info/en/download/category/4-openocd (Windows OpenOCD)
 ---
 
 Precompiled Binaries at /bin ...
-
+```
 esptool -vv -cd ck -cb 115200 -cp /dev/ttyUSB0 -ca 0x00000 -cf jtag_wifi_serial.cpp.bin
-
+````
 ---
 
 https://oliverlorenz.com/blog/esp8266-firmware-unter-ubuntu-aufspielen/
 
---> sudo esptool.py --port /dev/ttyUSB3 write_flash 0x00000 jtag_wifi_serial.cpp.bin
+````
+sudo esptool.py --port /dev/ttyUSB3 write_flash 0x00000 jtag_wifi_serial.cpp.bin
+````
 
 ---
 
@@ -124,7 +126,7 @@ Wrote 303104 bytes at 0x0 in 26.3 seconds (92.3 kbit/s)...
 Leaving...
 ````
 
-GND-Verbindung zu IO-0 trennen (s.o.) ... sonst weiterhin im Flash Modus ... also nach neu Booten sollte AP mit jtag zu finden sein ...
+GND-Verbindung zu IO-0 trennen ... sonst weiterhin im Flash-Modus ... nach neu Booten sollte ein AP mit dem Namen jtag zu finden sein ...
 
 ---
 

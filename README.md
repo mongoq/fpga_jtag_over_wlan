@@ -190,9 +190,7 @@ openocd -f openocd.cfg
 Dauert etwas 30 Sekunden ...
 
 ---
-
 ```
-
 Open On-Chip Debugger 0.10.0+dev-00581-g1b864d6e (2018-11-23-02:10)
 Licensed under GNU GPL v2
 For bug reports, read

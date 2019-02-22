@@ -105,15 +105,10 @@ Dann:
 
 ````
 sudo esptool.py -p /dev/ttyUSB3 erase_flash 
-
 esptool.py v1.3
-
 Connecting....
-
 Running Cesanta flasher stub...
-
 Erasing flash (this may take a while)...
-
 Erase took 2.8 seconds
 
 ````
@@ -122,21 +117,15 @@ Und zum Flashen schließlich:
 
 ````
 sudo esptool.py -p /dev/ttyUSB3 write_flash 0x00000 jtag_wifi_serial.cpp.bin
-
 esptool.py v1.3
-
 Connecting....
-
 Auto-detected Flash size: 8m
-
 Running Cesanta flasher stub...
-
 Flash params set to 0x0020
-
 Wrote 303104 bytes at 0x0 in 26.3 seconds (92.3 kbit/s)...
-
 Leaving...
 ````
+
 GND-Verbindung zu IO-0 trennen (s.o.) ... sonst weiterhin im Flash Modus ... also nach neu Booten sollte AP mit jtag zu finden sein ...
 
 ---
@@ -164,7 +153,7 @@ Flashen starten mit:
 ```
 openocd -f openocd.cfg
 ```
-... dauert etwa 30 Sekunden ...
+Vorgang dauert etwa 30 Sekunden ...
 
 ---
 ```

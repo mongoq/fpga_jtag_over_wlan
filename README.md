@@ -76,7 +76,7 @@ http://www.freddiechopin.info/en/download/category/4-openocd (Windows OpenOCD)
 
 ---
 
-Precompiled Binaries at /bin ...
+Precompiled Binaries at https://github.com/emard/wifi_jtag/tree/master/bin ...
 ```
 esptool -vv -cd ck -cb 115200 -cp /dev/ttyUSB0 -ca 0x00000 -cf jtag_wifi_serial.cpp.bin
 ````

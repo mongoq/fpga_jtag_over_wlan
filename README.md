@@ -1,6 +1,8 @@
 # fpga jtag over wlan
 
-**ESP201 - JTAG over WLAN**
+TODO: TEXT HIER
+
+**Flashing ESP201 Board**
 
 Follow instructions on https://github.com/emard/wifi_jtag to prepare ESP201
 

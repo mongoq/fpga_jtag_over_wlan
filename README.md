@@ -70,7 +70,7 @@ make install
 
 ---
 
-Precompiled binary is available in bin/
+Precompiled binary is available in https://github.com/emard/wifi_jtag/tree/master/bin
 
 Default SSID is "jtag" and password "12345678" 
 

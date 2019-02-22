@@ -4,7 +4,9 @@
 
 Follow instructions on https://github.com/emard/wifi_jtag to prepare ESP201
 
-TODO: Create Altera SVF-File - https://www.intel.com/content/www/us/en/programmable/support/support-resources/knowledge-base/solutions/rd07222008_677.html
+TODO: Create Altera SVF-File - How do I generate a Serial Vector File (SVF) in Quartus II software? 
+
+https://www.intel.com/content/www/us/en/programmable/support/support-resources/knowledge-base/solutions/rd07222008_677.html
 
 ---
 

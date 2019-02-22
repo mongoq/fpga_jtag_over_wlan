@@ -64,26 +64,6 @@ make install
 
 ---
 
-In der Datei *openocd.cfg*: (TODO: IP/jtag.lan)?
-
-interface remote_bitbang
-
-remote_bitbang_port 3335
-
-remote_bitbang_host jtag.lan
-
-jtag newtap tb276 tap -expected-id 0x020f10dd -irlen 10
-
-init
-
-scan_chain
-
-svf -tap tb276.tap project.svf
-
-shutdown
-
----
-
 Precompiled binary is available in bin/
 
 Default SSID is "jtag" and password "12345678" 
@@ -116,11 +96,8 @@ zuerst: "Unverfänglicher Verbindungstest"
 
 ```
 sudo esptool.py -p /dev/ttyUSB3 chip_id
-
 esptool.py v1.3
-
 Connecting....
-
 Chip ID: 0x001c1495
 ```
 

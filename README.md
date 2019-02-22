@@ -20,10 +20,6 @@ TODO: Windows ??? - http://gnutoolchains.com/arm-eabi/openocd/
 
 ---
 
-TODO: HIER ESP201 Flashing Anleitung hoch ...
-
----
-
 ![ESP201b](https://www.mikrocontroller.net/attachment/307864/esp8266_esp_201_module_pinout_diagram_cheat_sheet_by_adlerweb-d9iwmqp.jpg
 )
 

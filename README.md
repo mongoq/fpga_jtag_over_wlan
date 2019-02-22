@@ -183,11 +183,11 @@ shutdown
 
 ---
 
-Starten mit:
-
+Flashen starten mit:
+```
 openocd -f openocd.cfg
-
-Dauert etwas 30 Sekunden ...
+```
+... dauert etwa 30 Sekunden ...
 
 ---
 ```

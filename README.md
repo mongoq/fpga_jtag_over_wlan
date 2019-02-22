@@ -20,7 +20,7 @@ https://www.intel.com/content/www/us/en/programmable/support/support-resources/k
 ---
 
 
-Second: JTAG to TB276 Board pinout
+JTAG to TB276 Board pinout
 
 ![ESP201b](https://github.com/emard/wifi_jtag/raw/master/pic/altera10pin_xilinx14pin.jpg)
 

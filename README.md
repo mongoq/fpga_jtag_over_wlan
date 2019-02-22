@@ -8,6 +8,8 @@ TODO: Create Altera SVF-File - How do I generate a Serial Vector File (SVF) in Q
 
 https://www.intel.com/content/www/us/en/programmable/support/support-resources/knowledge-base/solutions/rd07222008_677.html
 
+TODO: Windows ??? - http://gnutoolchains.com/arm-eabi/openocd/
+
 ---
 
 ![ESP201a](https://www.mikrocontroller.net/attachment/307865/Flashing-The-ESP8266-ESP201-Module-Board-With-TTL-UART.jpg)

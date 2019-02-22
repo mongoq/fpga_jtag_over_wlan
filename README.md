@@ -168,10 +168,9 @@ http://androegg.de/?p=242 --> Stromversorgung nicht über USB-TTL-Wandler
  
 ---
 
-```
-
 openocd.cfg 
 
+```
 interface remote_bitbang
 remote_bitbang_port 3335
 remote_bitbang_host 192.168.4.1
@@ -180,12 +179,17 @@ init
 scan_chain
 svf -tap tb276.tap labortage_lauflicht_test_openocd.svf
 shutdown
-
 ```
 
 ---
 
+Starten mit:
+
 openocd -f openocd.cfg
+
+Dauert etwas 30 Sekunden ...
+
+---
 
 ```
 

@@ -209,3 +209,20 @@ Time used: 0m27s106ms
 svf file programmed successfully for 17 commands with 0 errors
 shutdown command invoked
 Info : remote_bitbang interface quit
+
+---
+
+openocd.cfg 
+
+interface remote_bitbang
+remote_bitbang_port 3335
+remote_bitbang_host 192.168.4.1
+jtag newtap tb276 tap -expected-id 0x020f10dd -irlen 10
+init
+scan_chain
+svf -tap tb276.tap labortage_lauflicht_test_openocd.svf
+shutdown
+
+---
+
+openocd -f openocd.cfg

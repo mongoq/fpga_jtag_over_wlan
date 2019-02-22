@@ -10,6 +10,8 @@ https://www.intel.com/content/www/us/en/programmable/support/support-resources/k
 
 TODO: Windows ??? - http://gnutoolchains.com/arm-eabi/openocd/
 
+OpenOCD Anleitung: https://www.besttechnology.co.jp/modules/knowledge/gate.php/openocd.pdf?way=attach&_noumb&refer=OpenOCD&openfile=openocd.pdf
+
 ---
 
 ![ESP201a](https://www.mikrocontroller.net/attachment/307865/Flashing-The-ESP8266-ESP201-Module-Board-With-TTL-UART.jpg)

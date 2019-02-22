@@ -168,6 +168,8 @@ http://androegg.de/?p=242 --> Stromversorgung nicht über USB-TTL-Wandler
  
 ---
 
+```
+
 Open On-Chip Debugger 0.10.0+dev-00581-g1b864d6e (2018-11-23-02:10)
 Licensed under GNU GPL v2
 For bug reports, read
@@ -210,7 +212,11 @@ svf file programmed successfully for 17 commands with 0 errors
 shutdown command invoked
 Info : remote_bitbang interface quit
 
+```
+
 ---
+
+```
 
 openocd.cfg 
 
@@ -222,6 +228,8 @@ init
 scan_chain
 svf -tap tb276.tap labortage_lauflicht_test_openocd.svf
 shutdown
+
+```
 
 ---
 

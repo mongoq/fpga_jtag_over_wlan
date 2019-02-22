@@ -170,6 +170,25 @@ http://androegg.de/?p=242 --> Stromversorgung nicht über USB-TTL-Wandler
 
 ```
 
+openocd.cfg 
+
+interface remote_bitbang
+remote_bitbang_port 3335
+remote_bitbang_host 192.168.4.1
+jtag newtap tb276 tap -expected-id 0x020f10dd -irlen 10
+init
+scan_chain
+svf -tap tb276.tap labortage_lauflicht_test_openocd.svf
+shutdown
+
+```
+
+---
+
+openocd -f openocd.cfg
+
+```
+
 Open On-Chip Debugger 0.10.0+dev-00581-g1b864d6e (2018-11-23-02:10)
 Licensed under GNU GPL v2
 For bug reports, read
@@ -213,24 +232,3 @@ shutdown command invoked
 Info : remote_bitbang interface quit
 
 ```
-
----
-
-```
-
-openocd.cfg 
-
-interface remote_bitbang
-remote_bitbang_port 3335
-remote_bitbang_host 192.168.4.1
-jtag newtap tb276 tap -expected-id 0x020f10dd -irlen 10
-init
-scan_chain
-svf -tap tb276.tap labortage_lauflicht_test_openocd.svf
-shutdown
-
-```
-
----
-
-openocd -f openocd.cfg

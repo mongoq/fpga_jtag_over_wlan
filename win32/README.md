@@ -8,5 +8,5 @@ Compiled with:
 
 ```
 ./configure --enable-remote-bitbang
-make CFLAGS=-Wno-error (--> fixes https://sourceforge.net/p/openocd/tickets/190/)
+make CFLAGS=-Wno-error // fixes: https://sourceforge.net/p/openocd/tickets/190/
 ```

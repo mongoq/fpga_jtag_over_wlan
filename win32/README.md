@@ -20,3 +20,5 @@ make CFLAGS=-Wno-error // fixes: https://sourceforge.net/p/openocd/tickets/190/
 TODO: How to convert sof to svf !!??!
 
 https://www.intel.com/content/www/us/en/programmable/documentation/nfa1421383422930.html
+
+https://www.intel.com/content/www/us/en/programmable/support/support-resources/knowledge-base/solutions/rd10312014_481.html - write .tcl script !?!

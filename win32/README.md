@@ -1,6 +1,6 @@
 **Compiled with Cygwin an Windows 7 32-Bit**
 
-Similar to: https://elinux.org/Compiling_OpenOCD_for_Windows_7_(LibFTDI)_-_Pre_June_2011
+Similar to: https://elinux.org/Compiling_OpenOCD_for_Windows_7_(LibFTDI)_-_Pre_June_2011 but without the libusb hassle ...
 
 Source Code used: https://sourceforge.net/projects/openocd/ - openocd-0.10.0.zip (newest !)
 

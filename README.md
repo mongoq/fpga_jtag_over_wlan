@@ -212,8 +212,4 @@ Info : remote_bitbang interface quit
 ```
 ---
 
-Cross Compiling mit Mingw für Windows unter Linux ...
-```
-https://github.com/ntfreak/openocd
-
-```
+Use Windows Version under /win32 ;-)

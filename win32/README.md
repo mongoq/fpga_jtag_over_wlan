@@ -11,4 +11,4 @@ Compiled with:
 make CFLAGS=-Wno-error // fixes: https://sourceforge.net/p/openocd/tickets/190/
 ```
 
-Works !!!
+**Works !!! **

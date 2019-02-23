@@ -216,7 +216,8 @@ Cross Compiling mit Mingw für Windows unter Linux ...
 ```
 https://github.com/ntfreak/openocd
 https://elinux.org/Compiling_OpenOCD_for_Windows_7_(LibFTDI)_-_Pre_June_2011
-https://sourceforge.net/projects/openocd/
+
+https://sourceforge.net/projects/openocd/ <-- make CFLAGS=-Wno-error
 
 ./configure --enable-usb-blaster --enable-remote-bitbang --host=i686-w64-mingw32
 ```

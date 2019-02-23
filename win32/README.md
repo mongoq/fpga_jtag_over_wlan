@@ -11,4 +11,6 @@ Compiled with:
 make CFLAGS=-Wno-error // fixes: https://sourceforge.net/p/openocd/tickets/190/
 ```
 
+To flash just start openocd.exe
+
 **Works !!!** (only these files needed ...)

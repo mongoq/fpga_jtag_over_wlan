@@ -1,6 +1,6 @@
 # fpga jtag over wlan
 
-TODO: TEXT HIER
+TODO: This has only been tested with TB276 Altera Board ...
 
 ---
 

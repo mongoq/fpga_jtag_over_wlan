@@ -12,6 +12,6 @@ Compiled with:
 make CFLAGS=-Wno-error // fixes: https://sourceforge.net/p/openocd/tickets/190/
 ```
 
---> To flash just run **openocd.exe** (specify your own .svf file in openocd.cfg) <--
+--> To flash over wlan just run **openocd.exe** (specify your own .svf file in openocd.cfg) <--
 
 **Works !!!** (only these files needed ...)

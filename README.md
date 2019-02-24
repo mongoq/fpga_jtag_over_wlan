@@ -211,3 +211,7 @@ Info : remote_bitbang interface quit
 ---
 
 Use Windows Version under /win32 ;-)
+
+--- 
+
+Works with AMS1117 3,3V Voltage Regulator (https://www.ebay.de/b/Ams1117-3-3V/bn_7005621676) connected to 5,0V USB ... 

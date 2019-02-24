@@ -215,3 +215,5 @@ Use Windows Version under /win32 ;-)
 --- 
 
 Works with AMS1117 3,3V Voltage Regulator (https://www.ebay.de/b/Ams1117-3-3V/bn_7005621676) connected to 5,0V USB ... 
+
+![AMS1117](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-_SJ6qtdZq9gV5KBb7XbxldFgBfDpenpJI3f8EVjwtCzRDph_)

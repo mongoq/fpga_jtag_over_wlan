@@ -24,9 +24,9 @@ https://www.intel.com/content/www/us/en/programmable/support/support-resources/k
 ---
 
 
-JTAG to TB276 Board pinout
+Pins (...)
 
-![ESP201b](https://github.com/emard/wifi_jtag/raw/master/pic/altera10pin_xilinx14pin.jpg)
+![ESP201b](https://github.com/mongoq/fpga_jtag_over_wlan/blob/master/Wlan-JTAG-Pinning.png?raw=true)
 
 Pinout Mapping ESP201 to JTAG Pins: https://github.com/emard/wifi_jtag (!!!) 
 

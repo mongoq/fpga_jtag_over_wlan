@@ -24,11 +24,9 @@ https://www.intel.com/content/www/us/en/programmable/support/support-resources/k
 ---
 
 
-Pins (...)
+Pins to connect after flashing the ESP-201 firmware (...)
 
 ![ESP201b](https://github.com/mongoq/fpga_jtag_over_wlan/blob/master/Wlan-JTAG-Pinning.png?raw=true)
-
-Pinout Mapping ESP201 to JTAG Pins: https://github.com/emard/wifi_jtag (!!!) 
 
 ---
 

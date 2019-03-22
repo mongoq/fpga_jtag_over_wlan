@@ -26,7 +26,7 @@ https://www.intel.com/content/www/us/en/programmable/support/support-resources/k
 
 Pins to connect after flashing the ESP-201 firmware (...) to connect ESP-201 to JTAG-Port of Altera FPGA
 
-![ESP201b](https://github.com/mongoq/fpga_jtag_over_wlan/blob/master/Wlan-JTAG-Pinning.png?raw=true)
+![ESP201b](https://github.com/mongoq/fpga_jtag_over_wlan/blob/master/Wlan-Altera-JTAG-Pinning.png?raw=true)
 
 ---
 
